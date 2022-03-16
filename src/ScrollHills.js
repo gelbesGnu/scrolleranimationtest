@@ -9,7 +9,7 @@ function ScollHills(){
 
 return(    
 <div id="holder">
-      <Parallax speed={0.5}>
+      <Parallax speed={-5}>
         <svg
             className="svg2"
             xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ return(
             />
         </svg>
       </Parallax>
-      <Parallax speed={1}>
+      <Parallax speed={-4}>
         <svg
             className="svg2"
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ return(
             />
         </svg>
       </Parallax>
-      <Parallax speed={2}>
+      <Parallax speed={-3}>
         <svg
             className="svg2"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ return(
             />
         </svg>
       </Parallax>
-      <Parallax speed={3}>
+      <Parallax speed={-2}>
         <svg
             className="svg2"
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ return(
         />
         </svg>
       </Parallax>
-      <Parallax speed={4}>
+      <Parallax speed={-1}>
         <svg
             className="svg2"
             xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ return(
         />
         </svg>
         </Parallax>
-        <Parallax speed={5}>
+        <Parallax speed={0}>
             <svg
                 className="svg2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -98,12 +98,12 @@ return(
             />
             </svg>
         </Parallax>
-      
-        <h1 className="h1">Welcome</h1>
-      
-        <Parallax speed={5}>
+        <Parallax speed={-5}>
+            <h1 className="h1">Welcome</h1>
+        </Parallax>
+        
       <p className="p">Lorem Ipsum</p>
-      </Parallax>
+      
     </div>
     )
     }

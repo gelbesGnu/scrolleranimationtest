@@ -1,15 +1,14 @@
 import React from 'react';
-
-import { ReactComponent as Landscape } from "./landscape.svg"
+import AppBar from '@mui/material/AppBar';
 
 import ScrollHills from './ScrollHills';
-//import ButtonAppBar from './AppBarButton';
+import ResponsiveAppBar from './AppBarButton';
 
 function App() {
   return (
     <>
       
-      
+      <ResponsiveAppBar />
       <ScrollHills />
       
     </>
