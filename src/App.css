@@ -1,18 +1,37 @@
-
-
-
-section {
-  height: 100vh;
+body {
+  height: 200vh;
+  
+  background-color: rgb(255, 212, 237);
 }
 
-sticky {
-  background-color: red;
+#holder{
+  position: absolute;
   width: 100%;
-  padding: 30px;
+  
+  
 }
- 
+.svg2{
+  margin-top: 110px;
+  position: absolute;
+}
+.h1{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-size: 250px
+}
+p{
+  height: 4000px;
+  width: 100%;
+  margin-top: 800px;
+  background-color: #a841f1;
+  position: absolute;
+}
 
-
-.blue {
-    background-color: blue;
+@media only screen and (max-width: 768px) {
+  .h1{
+    font-size: 50px;
   }
+  p{
+    margin-top: 270px;
+  }
+}
