@@ -37,11 +37,18 @@ p{
 }
 
 @media only screen and (max-width: 900px) {
+  .svg2{
+    margin-top: 45px;
+  }
   .h1{
     font-size: 70px;
     margin-top: 70px;
   }
+  h2{
+    margin-top: -60px;
+    font-size: 25px;
+  }
   p{
-    margin-top: 25%;
+    margin-top: 40%;
   }
 }

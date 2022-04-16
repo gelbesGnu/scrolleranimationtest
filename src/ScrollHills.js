@@ -89,10 +89,10 @@ return(
             />
             </svg>
         </Parallax>
-        <Parallax speed={-5}>
+        <Parallax speed={0}>
             <h1 className="h1">Welcome</h1>
         </Parallax>
-        <Parallax speed={-1}>
+        <Parallax speed={0}>
             <h2 className="h2">Scroll Down</h2>
         </Parallax>
         
