@@ -11,7 +11,7 @@ body {
   
 }
 .svg2{
-  margin-top: 110px;
+  margin-top: 0px;
   position: absolute;
   z-index: 2;
 }
@@ -19,12 +19,19 @@ h1{
   color:rgb(255, 255, 255);
   text-align: center;
   font-size: 250px;
-  z-index: 1;
+  z-index: 0;
+}
+h2{
+  color:rgb(255, 255, 255);
+  margin-top: -150px;
+  text-align: center;
+  font-size: 50px;
+  z-index: 0;
 }
 p{
   height: 2000px;
   width: 100%;
-  margin-top: 50%;
+  margin-top: 35%;
   background-color: #a841f1;
   position: relative;
 }
@@ -32,9 +39,9 @@ p{
 @media only screen and (max-width: 900px) {
   .h1{
     font-size: 70px;
-    margin-top: 25px;
+    margin-top: 70px;
   }
   p{
-    margin-top: 65%;
+    margin-top: 25%;
   }
 }
